@@ -59,7 +59,7 @@ export default function App({ routeLang }: { routeLang?: string }) {
         onClick={handleCardClick}
       >
         <img
-          src="../src/assets/logo.png"
+          src="../logo.png"
           alt="Logo"
           className={`w-[40px] object-cover transition-opacity duration-500`}
         />
