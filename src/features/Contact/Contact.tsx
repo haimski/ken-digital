@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import axios from "axios";
 import { useLanguage } from "../../i18n/LanguagesContext";
 import InputField from "../../components/InputField";
-import TextAreaField from "../../components/TextareaField";
+import TextAreaField from "../../components/TextAreaField";
 import Modal from "../../components/Modal"; // <-- Import your Modal component
 
 const emailRegex =

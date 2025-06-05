@@ -1,5 +1,5 @@
 import { useLanguage } from "../../i18n/LanguagesContext";
-import React, { useState } from "react";
+import { useState } from "react";
 import Modal from "../../components/Modal";
 
 const Services = () => {
