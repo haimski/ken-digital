@@ -2,7 +2,7 @@ const translations = {
     en: {
         profile: {
             title: "Digital Portfolio",
-            description: "Welcome to my digital portfolio. With over 20 years of experience in digital solutions and productions, I have partnered with a wide range of companies to drive their success through innovative technology. My expertise spans digital strategy, software development, and process automation, helping businesses of all sizes harness the power of digital tools to streamline operations, boost efficiency, and unlock new growth opportunities. Embrace the future—empower your business with digital excellence.",
+            description: "Welcome to my digital portfolio. With over 20 years of experience in digital solutions and productions, I have partnered with a wide range of companies to drive their success through innovative technology. My expertise spans digital strategy, software development, and process automation, helping businesses of all sizes harness the power of digital tools to streamline operations, boost efficiency, and unlock new growth opportunities. Embrace the future—empower your business with digital excellence. For a tailored solution and to build the right process for your business, please contact us through the Contact page.",
         },
         services: {
             title: "Services",
@@ -10,19 +10,19 @@ const translations = {
             list: [
                 {
                     text: "Software Solutions",
-                    description: "Custom software development tailored to your business needs. From web and mobile applications to complex enterprise systems, I deliver robust, scalable, and secure solutions that streamline your operations, enhance productivity, and support your long-term growth. My approach ensures seamless integration with your existing workflows and a focus on user experience, empowering your team to achieve more with technology."
+                    description: "Custom software development tailored to your business needs. From web and mobile applications to complex enterprise systems, I deliver robust, scalable, and secure solutions that streamline your operations, enhance productivity, and support your long-term growth. My approach ensures seamless integration with your existing workflows and a focus on user experience, empowering your team to achieve more with technology. Solutions provided: websites, web apps, mobile apps, e-commerce platforms, content management systems (CMS), customer relationship management (CRM) systems, booking systems, dashboards, APIs, automation tools, portals, SaaS products, and more."
                 },
                 {
                     text: "AI Consultancy",
-                    description: "Expert guidance on integrating artificial intelligence into your operations. I help you identify opportunities for AI-driven automation, data analysis, and decision-making, ensuring your business stays ahead of the curve. From strategy to implementation, I provide hands-on support to maximize the value of AI, improve efficiency, and unlock new insights that drive innovation and competitive advantage."
+                    description: "Expert guidance on integrating artificial intelligence into your operations. I help you identify opportunities for AI-driven automation, data analysis, and decision-making, ensuring your business stays ahead of the curve. From strategy to implementation, I provide hands-on support to maximize the value of AI, improve efficiency, and unlock new insights that drive innovation and competitive advantage. To start building the process that is suitable for your business, please contact me through the Contact page."
                 },
                 {
                     text: "Business Automation",
-                    description: "Streamline processes and increase efficiency with automation tools. I analyze your current workflows to identify repetitive tasks and bottlenecks, then design and implement automation solutions that save time, reduce errors, and free up your team for higher-value work. My solutions are tailored to your unique needs, ensuring a smooth transition and measurable improvements in productivity and cost savings."
+                    description: "Streamline processes and increase efficiency with automation tools. I analyze your current workflows to identify repetitive tasks and bottlenecks, then design and implement automation solutions that save time, reduce errors, and free up your team for higher-value work. My solutions are tailored to your unique needs, ensuring a smooth transition and measurable improvements in productivity and cost savings. To start building the process that is suitable for your business, please contact me through the Contact page."
                 },
                 {
                     text: "Digital Marketing",
-                    description: "Grow your online presence with targeted digital marketing strategies. I develop comprehensive campaigns that leverage SEO, social media, content marketing, and analytics to reach your audience and achieve your business goals. By combining creative storytelling with data-driven insights, I help you build brand awareness, engage customers, and drive sustainable growth in the digital landscape."
+                    description: "Grow your online presence with targeted digital marketing strategies. I develop comprehensive campaigns that leverage SEO, social media, content marketing, and analytics to reach your audience and achieve your business goals. By combining creative storytelling with data-driven insights, I help you build brand awareness, engage customers, and drive sustainable growth in the digital landscape. To start building the process that is suitable for your business, please contact me through the Contact page."
                 },
                 {
                     text: "Software Training",
@@ -101,6 +101,8 @@ const translations = {
             invalidEmail: "Please enter a valid email address.",
             required: "This field is required.",
             invalidPhone: "Please enter a valid phone number.",
+            showPhone: "Show phone number",
+            phoneLabel: "For immediate counseling call: ",
         },
         nav: {
             profile: "profile",
@@ -114,7 +116,7 @@ const translations = {
     he: {
         profile: {
             title: "תיק דיגיטלי",
-            description: "ברוכים הבאים לתיק הדיגיטלי שלי. עם ניסיון של מעל 20 שנה בפתרונות והפקות דיגיטליות, עבדתי עם מגוון רחב של חברות כדי להוביל אותן להצלחה באמצעות טכנולוגיה חדשנית. המומחיות שלי כוללת אסטרטגיה דיגיטלית, פיתוח תוכנה ואוטומציה עסקית, ומסייעת לעסקים בכל סדר גודל למנף כלים ותהליכים דיגיטליים לשיפור תפעול, הגדלת יעילות ופתיחת אפשרויות צמיחה חדשות. העתיד כבר כאן—העצימו את העסק שלכם עם מצוינות דיגיטלית.",
+            description: "ברוכים הבאים לתיק הדיגיטלי שלי. עם ניסיון של מעל 20 שנה בפתרונות והפקות דיגיטליות, עבדתי עם מגוון רחב של חברות כדי להוביל אותן להצלחה באמצעות טכנולוגיה חדשנית. המומחיות שלי כוללת אסטרטגיה דיגיטלית, פיתוח תוכנה ואוטומציה עסקית, ומסייעת לעסקים בכל סדר גודל למנף כלים ותהליכים דיגיטליים לשיפור תפעול, הגדלת יעילות ופתיחת אפשרויות צמיחה חדשות. העתיד כבר כאן—העצימו את העסק שלכם עם מצוינות דיגיטלית. לקבלת פתרון מותאם אישית ובניית תהליך נכון לעסק שלכם, פנו אלינו דרך עמוד צור קשר.",
         },
         services: {
             title: "שירותים",
@@ -122,19 +124,19 @@ const translations = {
             list: [
                 {
                     text: "פתרונות תוכנה",
-                    description: "פיתוח תוכנה מותאם אישית לצרכי העסק שלכם. אני מספק פתרונות מקיפים לאפליקציות ווב ומובייל, מערכות ארגוניות מורכבות ועוד, תוך דגש על אבטחה, יציבות, חוויית משתמש ואינטגרציה מלאה עם מערכות קיימות. הפתרונות שלי מסייעים לייעל תהליכים, להגדיל את הפרודוקטיביות ולהניע את הצמיחה של העסק שלכם באמצעות טכנולוגיה מתקדמת."
+                    description: "פיתוח תוכנה מותאם אישית לצרכי העסק שלכם. אני מספק פתרונות מקיפים לאפליקציות ווב ומובייל, מערכות ארגוניות מורכבות ועוד, תוך דגש על אבטחה, יציבות, חוויית משתמש ואינטגרציה מלאה עם מערכות קיימות. הפתרונות שלי מסייעים לייעל תהליכים, להגדיל את הפרודוקטיביות ולהניע את הצמיחה של העסק שלכם באמצעות טכנולוגיה מתקדמת. פתרונות כוללים: אתרי אינטרנט, אפליקציות ווב, אפליקציות מובייל, פלטפורמות מסחר אלקטרוני, מערכות ניהול תוכן (CMS), מערכות CRM, מערכות הזמנות, דשבורדים, APIs, כלי אוטומציה, פורטלים, מוצרי SaaS ועוד."
                 },
                 {
                     text: "ייעוץ בינה מלאכותית",
-                    description: "הכוונה מקצועית לשילוב בינה מלאכותית בתהליכי העבודה. אני מסייע בזיהוי הזדמנויות לאוטומציה, ניתוח נתונים וקבלת החלטות חכמות, ומלווה אתכם משלב האסטרטגיה ועד ליישום בפועל. יחד נבנה פתרונות AI שמייעלים תהליכים, משפרים תוצאות עסקיות ומעניקים יתרון תחרותי בשוק הדיגיטלי."
+                    description: "הכוונה מקצועית לשילוב בינה מלאכותית בתהליכי העבודה. אני מסייע בזיהוי הזדמנויות לאוטומציה, ניתוח נתונים וקבלת החלטות חכמות, ומלווה אתכם משלב האסטרטגיה ועד ליישום בפועל. יחד נבנה פתרונות AI שמייעלים תהליכים, משפרים תוצאות עסקיות ומעניקים יתרון תחרותי בשוק הדיגיטלי. כדי להתחיל לבנות את התהליך המתאים לעסק שלכם, פנו אליי דרך עמוד צור קשר."
                 },
                 {
                     text: "אוטומציה עסקית",
-                    description: "ייעול תהליכים עסקיים והגברת יעילות באמצעות כלי אוטומציה. אני מנתח את תהליכי העבודה שלכם, מזהה משימות חוזרות ומיישם פתרונות אוטומטיים שמפחיתים טעויות, חוסכים זמן ומשאבים, ומאפשרים לצוות להתמקד במשימות החשובות באמת. כל פתרון מותאם אישית לצרכים שלכם ומביא לשיפור מדיד בפרודוקטיביות ובהפחתת עלויות."
+                    description: "ייעול תהליכים עסקיים והגברת יעילות באמצעות כלי אוטומציה. אני מנתח את תהליכי העבודה שלכם, מזהה משימות חוזרות ומיישם פתרונות אוטומטיים שמפחיתים טעויות, חוסכים זמן ומשאבים, ומאפשרים לצוות להתמקד במשימות החשובות באמת. כל פתרון מותאם אישית לצרכים שלכם ומביא לשיפור מדיד בפרודוקטיביות ובהפחתת עלויות. כדי להתחיל לבנות את התהליך המתאים לעסק שלכם, פנו אליי דרך עמוד צור קשר."
                 },
                 {
                     text: "שיווק דיגיטלי",
-                    description: "הגדלת הנוכחות הדיגיטלית עם אסטרטגיות שיווק ממוקדות. אני בונה קמפיינים מקיפים הכוללים SEO, רשתות חברתיות, תוכן שיווקי וניתוח נתונים, כדי להגיע לקהל היעד ולהשיג את מטרות העסק. השילוב בין יצירתיות לניתוח נתונים מאפשר בניית מותג חזק, מעורבות לקוחות וצמיחה מתמשכת בעולם הדיגיטלי."
+                    description: "הגדלת הנוכחות הדיגיטלית עם אסטרטגיות שיווק ממוקדות. אני בונה קמפיינים מקיפים הכוללים SEO, רשתות חברתיות, תוכן שיווקי וניתוח נתונים, כדי להגיע לקהל היעד ולהשיג את מטרות העסק. השילוב בין יצירתיות לניתוח נתונים מאפשר בניית מותג חזק, מעורבות לקוחות וצמיחה מתמשכת בעולם הדיגיטלי. כדי להתחיל לבנות את התהליך המתאים לעסק שלכם, פנו אליי דרך עמוד צור קשר."
                 },
                 {
                     text: "הדרכות תוכנה",
@@ -213,6 +215,8 @@ const translations = {
             invalidEmail: "אנא הזינו כתובת אימייל תקינה.",
             required: "שדה זה הינו חובה.",
             invalidPhone: "אנא הזינו מספר טלפון תקין.",
+            showPhone: "הצג מספר טלפון",
+            phoneLabel: "לייעוץ מיידי חייגו: ",
         },
         nav: {
             profile: "אודות",

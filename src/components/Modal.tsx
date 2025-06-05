@@ -1,14 +1,27 @@
 import React from "react";
 
+interface ModalAction {
+  label: string;
+  onClick: () => void;
+}
+
 interface ModalProps {
   isOpen: boolean;
   onClose: () => void;
   children: React.ReactNode;
   closeLabel?: string;
   lang?: string;
+  action?: ModalAction; 
 }
 
-const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children, closeLabel = "Close", lang = "en" }) => {
+const Modal: React.FC<ModalProps> = ({ 
+  isOpen, 
+  onClose, 
+  children, 
+  closeLabel = "Close", 
+  lang = "en",
+  action = null,
+}) => {
   if (!isOpen) return null;
 
   return (
@@ -24,10 +37,21 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children, closeLabel = "
           &times;
         </button>
         <div className="mb-6">{children}</div>
+        {/* Action button */}
+        {action && (
+          <button
+            onClick={action.onClick}
+            /* className="mt-2 px-4 py-2 bg-[#324681] text-white rounded-none hover:bg-[#22315a]" */
+            className="mt-4 px-4 py-2 bg-[#d70d0e] text-white rounded-none hover:bg-[#b80b0b]"
+            style={{ borderRadius: 0 }}
+          >
+            {action.label}
+          </button>
+        )}
         {/* Bottom close button */}
         <button
           onClick={onClose}
-          className="mt-4 px-4 py-2 bg-[#d70d0e] text-white rounded-none hover:bg-[#b80b0b]"
+          className="mt-4 mr-2 ml-2 px-4 py-2 bg-white border border-[#d70d0e] text-[#d70d0e] rounded-none hover:bg-[#d70d0e] hover:text-white"
           style={{ borderRadius: 0 }}
         >
           {closeLabel}

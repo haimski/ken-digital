@@ -30,7 +30,7 @@ const Projects = () => {
                         {selectedProject !== null ? t.projects.list[selectedProject].title : ""}
                     </h2>
                     <img
-                        src={selectedProject !== null ? `src/assets/projects/${selectedProject+1}.jpg` : ""}
+                        src={selectedProject !== null ? `../projects/${selectedProject+1}.jpg` : ""}
                         className="w-auto max-h-[200px] rounded mb-4"
                         style={{ maxHeight: 200, width: "auto" }}
                         alt={selectedProject !== null ? t.projects.list[selectedProject].title : ""}

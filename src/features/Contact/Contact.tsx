@@ -3,7 +3,8 @@ import axios from "axios";
 import { useLanguage } from "../../i18n/LanguagesContext";
 import InputField from "../../components/InputField";
 import TextAreaField from "../../components/TextAreaField";
-import Modal from "../../components/Modal"; // <-- Import your Modal component
+import Modal from "../../components/Modal";
+// import PhoneNumber from "../../components/PhoneNumber";
 
 const emailRegex =
     /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
@@ -108,6 +109,13 @@ const Contact = () => {
     return (
         <div className="flex flex-col items-start justify-start bg-white text-[#324681]">
             <p className="text-lg mb-2">{t.contact.description}</p>
+            {/* <div className="mb-4">
+                <PhoneNumber
+                    phoneNumber={lang === 'en' ? '+972-54-123-4567' : '972-54-123-4567+' }
+                    showText={t.contact.showPhone}
+                    label={t.contact.phoneLabel}
+                />
+            </div> */}
             <form
                 className="w-[60%] max-w-md mx-auto"
                 style={{ direction: formDir }}

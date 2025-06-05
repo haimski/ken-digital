@@ -1,13 +1,23 @@
 import { useLanguage } from "../../i18n/LanguagesContext";
-import { useState } from "react";
+import React, { useState } from "react";
 import Modal from "../../components/Modal";
 
-const Services = () => {
+interface ServicesProps {
+    onContact?: () => void;
+}
+
+const Services: React.FC<ServicesProps> = ({ onContact }) => {
     const { t, lang } = useLanguage();
     const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
 
     const handleOpen = (index: number) => setSelectedIndex(index);
     const handleClose = () => setSelectedIndex(null);
+
+    // Handler for the modal action button
+    const handleContact = () => {
+        handleClose();
+        if (onContact) onContact();
+    };
 
     return (
         <div className="flex flex-col items-center justify-start bg-white text-[#324681]">
@@ -31,6 +41,10 @@ const Services = () => {
                 onClose={handleClose}
                 closeLabel={t.close}
                 lang={lang}
+                action={onContact ? {
+                    label: t.contact.title,
+                    onClick: handleContact,
+                } : undefined}
             >
                 {selectedIndex !== null && (
                 <>

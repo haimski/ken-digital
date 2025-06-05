@@ -28,7 +28,7 @@ export default function App({ routeLang }: { routeLang?: string }) {
       case "profile":
         return <Profile />;
       case "services":
-        return <Services />;
+        return <Services onContact={() => setActiveContent('contact')} />;
       case "projects":
         return <Projects />;
       case "contact":
