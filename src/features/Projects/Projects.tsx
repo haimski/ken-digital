@@ -8,6 +8,7 @@ const Projects = () => {
     
     return (
         <div className="flex flex-col items-center justify-start bg-white text-[#324681] mt-8">
+            <p className="text-lg mb-6">{t.projects.description}</p>
             <div className="grid grid-cols-3 gap-4 w-full max-w-md justify-items-center">
             {t.projects.list.map((project, index) => (
             <div

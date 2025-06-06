@@ -21,7 +21,7 @@ const Services: React.FC<ServicesProps> = ({ onContact }) => {
 
     return (
         <div className="flex flex-col items-center justify-start bg-white text-[#324681]">
-            <ul className="list-none p-0 m-0 w-full max-w-md">
+            <ul className="list-none p-0 m-0 w-full max-w-md text-lg">
             {t.services.list.map((service: { text: string; description: string }, index: number) => (
                 <li
                 key={index}

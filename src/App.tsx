@@ -18,10 +18,12 @@ export default function App({ routeLang }: { routeLang?: string }) {
     if (routeLang) setLang(routeLang as typeof lang);
   }, [routeLang, setLang]);
 
-  const handleCardClick = () => {
+  // Automatically expand logo and show menu on mount
+  useEffect(() => {
     setExpanded(true);
-    setTimeout(() => setNavVisible(true), 600);
-  };
+    const timer = setTimeout(() => setNavVisible(true), 600);
+    return () => clearTimeout(timer);
+  }, []);
 
   const renderContent = () => {
     switch (activeContent) {
@@ -56,7 +58,6 @@ export default function App({ routeLang }: { routeLang?: string }) {
       </Link>
       <div
         className={`relative flex items-center justify-${lang === "he" ? "right" : "left"} bg-white overflow-hidden cursor-pointer transition-all duration-500 ${expanded ? "w-[500px] border-b border-[#324681]" : "w-[50px]"} h-[50px] top-mobile`}
-        onClick={handleCardClick}
       >
         <img
           src="../logo.png"

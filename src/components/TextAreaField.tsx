@@ -23,7 +23,6 @@ const TextAreaField: React.FC<TextareaFieldProps> = ({
     <textarea
       {...props}
       className={`w-full px-3 py-2 border border-darkgray text-darkgray ${className} ${error ? "border-red-500" : ""}`}
-      style={{ fontSize: "85%" }}
     />
     {error && (
       <p className={`text-red-500 text-xs text-${labelAlign}`}>{error}</p>
