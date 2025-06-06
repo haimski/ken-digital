@@ -210,7 +210,6 @@ const Contact = () => {
                 <button
                     type="submit"
                     className="w-full bg-[#d70d0e] text-white hover:bg-[#b80b0b] text-white px-4 transition-colors"
-                    style={{ height: "25px", fontSize: "90%" }}
                 >
                     {t.contact.submit}
                 </button>

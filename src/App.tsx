@@ -75,7 +75,7 @@ export default function App({ routeLang }: { routeLang?: string }) {
         {Object.keys(t.nav).map((key) => (
         <button
           key={key}
-          className="text-[#324681] font-bold text-sm hover:underline p-2 capitalize font-normal text-[#324681] transition-colors duration-300"
+          className="text-[#324681] font-bold hover:underline p-2 capitalize font-normal text-[#324681] transition-colors duration-300"
           onClick={() => setActiveContent(key)}
         >
           {t.nav[key as keyof typeof t.nav]}

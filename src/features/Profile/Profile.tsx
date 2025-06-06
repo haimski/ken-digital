@@ -7,7 +7,7 @@ const Profile = () => {
 
     return (
         <div
-            className={`flex flex-col items-start justify-start bg-white text-[#324681] p-8 ${
+            className={`flex flex-col items-start justify-start bg-white text-[#324681] ${
                 isHebrew ? "items-end text-right" : "items-start text-left"
             }`}
         >

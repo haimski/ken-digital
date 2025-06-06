@@ -102,7 +102,6 @@ const translations = {
             required: "This field is required.",
             invalidPhone: "Please enter a valid phone number.",
             showPhone: "Show phone number",
-            phoneLabel: "For immediate counseling call: ",
         },
         nav: {
             profile: "profile",
@@ -216,7 +215,6 @@ const translations = {
             required: "שדה זה הינו חובה.",
             invalidPhone: "אנא הזינו מספר טלפון תקין.",
             showPhone: "הצג מספר טלפון",
-            phoneLabel: "לייעוץ מיידי חייגו: ",
         },
         nav: {
             profile: "אודות",
