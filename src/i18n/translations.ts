@@ -10,23 +10,23 @@ const translations = {
             list: [
                 {
                     text: "Software Solutions",
-                    description: "Custom software development tailored to your business needs. From web and mobile applications to complex enterprise systems, we deliver robust, scalable, and secure solutions that streamline your operations, enhance productivity, and support your long-term growth. Our approach ensures seamless integration with your existing workflows and a focus on user experience, empowering your team to achieve more with technology. Solutions provided: websites, web apps, mobile apps, e-commerce platforms, content management systems (CMS), customer relationship management (CRM) systems, booking systems, dashboards, APIs, automation tools, portals, SaaS products, and more."
+                    description: "We don’t just write code – we craft smart digital solutions that drive business growth. From boosting sales to streamlining operations, our systems and apps are designed to create impact. With a sharp focus on UX, security, stability, and seamless integration, we build platforms that truly work. Our solutions include: websites, web and mobile apps, CRM and CMS systems, e-commerce platforms, dashboards, automation tools, APIs, SaaS products, and more. Curious how it can work for you? Let’s talk."
                 },
                 {
                     text: "AI Consultancy",
-                    description: "Expert guidance on integrating artificial intelligence into your operations. We help you identify opportunities for AI-driven automation, data analysis, and decision-making, ensuring your business stays ahead of the curve. From strategy to implementation, we provide hands-on support to maximize the value of AI, improve efficiency, and unlock new insights that drive innovation and competitive advantage. To start building the processes that are suitable for your business, please contact us through the Contact page."
+                    description: "Your business can do more – with AI on its side. We help you pinpoint the exact opportunities where artificial intelligence can streamline operations, reveal powerful insights, and improve real-time decision-making. From strategy to hands-on execution, we guide you in unlocking the full potential of AI.Wondering how it could work for you? Reach out via our Contact page – and let’s start building your future-ready processes."
                 },
                 {
                     text: "Business Automation",
-                    description: "Streamline processes and increase efficiency with automation tools. We analyze your current workflows to identify repetitive tasks and bottlenecks, then design and implement automation solutions that save time, reduce errors, and free up your team for higher-value work. Our solutions are tailored to your unique needs, ensuring a smooth transition and measurable improvements in productivity and cost savings. To start building the processes that are suitable for your business, please contact us through the Contact page."
+                    description: "Still handling tasks manually that could’ve been automated ages ago? We analyze your business workflows, spot repetitive tasks, and implement smart automation that reduces errors, saves time, and frees up your team to focus on what really matters. Every solution is tailored to your unique needs – driving real productivity and cost savings. Want to see how it works in your business? Reach out via our Contact page."
                 },
                 {
                     text: "Digital Marketing",
-                    description: "Grow your online presence with targeted digital marketing strategies. We develop comprehensive campaigns that leverage SEO, social media, content marketing, and analytics to reach your audience and achieve your business goals. By combining creative storytelling with data-driven insights, we help you build brand awareness, engage customers, and drive sustainable growth in the digital landscape. To start building the processes that are suitable for your business, please contact us through the Contact page."
+                    description: "No more guesswork or random campaigns – we create sharp digital marketing strategies that actually deliver. From SEO and content to social media campaigns and data analytics, we connect the dots to boost your visibility, build your brand, and drive real customer engagement. Ready to turn your digital presence into real business growth? Get in touch via our Contact page."
                 },
                 {
                     text: "Software Training",
-                    description: "Professional training sessions to empower your team with the latest technologies. We offer customized workshops and hands-on learning experiences that cover a wide range of software tools and best practices. Whether you need to upskill your staff or onboard new technologies, our training programs ensure your team is confident, capable, and ready to leverage digital solutions for maximum impact."
+                    description: "Your team can achieve more – with the right tools and the right guidance. We offer practical, business-focused workshops on: Smart and modern use of Microsoft Office, Advanced Google Workspace techniques and Integrating AI tools to boost productivity and streamline work. Need something more tailored? We also offer training on additional software or technologies – customized to your business needs.Want to see what’s right for your team? Contact us via the Contact page for full program details and pricing."
                 }
             ]
         },
@@ -124,23 +124,23 @@ const translations = {
             list: [
                 {
                     text: "פתרונות תוכנה",
-                    description: "פיתוח תוכנה מותאם אישית לצרכי העסק שלכם. אנחנו מספקים פתרונות מקיפים לאפליקציות ווב ומובייל, מערכות ארגוניות מורכבות ועוד, תוך דגש על אבטחה, יציבות, חוויית משתמש ואינטגרציה מלאה עם מערכות קיימות. הפתרונות שלנו מסייעים לייעל תהליכים, להגדיל את הפרודוקטיביות ולהניע את הצמיחה של העסק שלכם באמצעות טכנולוגיה מתקדמת. פתרונות כוללים: אתרי אינטרנט, אפליקציות ווב, אפליקציות מובייל, פלטפורמות מסחר אלקטרוני, מערכות ניהול תוכן (CMS), מערכות CRM, מערכות הזמנות, דשבורדים, APIs, כלי אוטומציה, פורטלים, מוצרי SaaS ועוד."
+                    description: "אנחנו לא רק כותבים קוד – אנחנו בונים פתרונות טכנולוגיים חכמים שמניעים עסקים קדימה. פיתחנו מערכות ואפליקציות שמגדילות מכירות, משפרות תהליכים ומביאות תוצאות בשטח. עם דגש על חוויית משתמש, אבטחה, יציבות ואינטגרציה חלקה – אנחנו בונים איתכם מערכת שעובדת באמת. בין הפתרונות שלנו: אתרי אינטרנט, אפליקציות ווב ומובייל, מערכות CRM ו־CMS, פלטפורמות מסחר, דשבורדים, כלי אוטומציה, APIs, מוצרי SaaS ועוד. רוצים לדעת איך זה ייראה אצלכם? דברו איתנו."
                 },
                 {
                     text: "ייעוץ בינה מלאכותית",
-                    description: "הכוונה מקצועית לשילוב בינה מלאכותית בתהליכי העבודה. אנחנו מסייעים בזיהוי הזדמנויות לאוטומציה, ניתוח נתונים וקבלת החלטות חכמות, ומלווים אתכם משלב האסטרטגיה ועד ליישום בפועל. יחד נבנה פתרונות AI שמייעלים תהליכים, משפרים תוצאות עסקיות ומעניקים יתרון תחרותי בשוק הדיגיטלי. כדי להתחיל לבנות את התהליכים המתאימים לעסק שלכם, פנו אלינו דרך עמוד צור קשר."
+                    description: "יש לנו תוכנית הדרכה מובנית ומוכחת להכשרת עובדים בשימוש בכלי בינה מלאכותית – תוכנית שמטרתה להטמיע תהליכי עבודה חכמים, לייעל משימות שוטפות ולשרת מטרות עסקיות בצורה אפקטיבית. התוכנית ניתנת בעברית או באנגלית, כוללת ליווי מלא, וניתנת להתאמה לפי תחום הפעילות שלכם. בנוסף, ניתן לקבל גם ייעוץ אישי וממוקד בשימושי AI בהתאמה ספציפית לארגון ולצרכים שלכם. רוצים לדעת כמה זה עולה ומה כוללת התוכנית? פנו אלינו דרך עמוד צור קשר."
                 },
                 {
                     text: "אוטומציה עסקית",
-                    description: "ייעול תהליכים עסקיים והגברת יעילות באמצעות כלי אוטומציה. אנחנו מנתחים את תהליכי העבודה שלכם, מזהים משימות חוזרות ומיישמים פתרונות אוטומטיים שמפחיתים טעויות, חוסכים זמן ומשאבים, ומאפשרים לצוות להתמקד במשימות החשובות באמת. כל פתרון מותאם אישית לצרכים שלכם ומביא לשיפור מדיד בפרודוקטיביות ובהפחתת עלויות. כדי להתחיל לבנות את התהליכים המתאימים לעסק שלכם, פנו אלינו דרך עמוד צור קשר."
+                    description: "האם אתם עדיין עושים דברים ידנית שאפשר היה כבר מזמן לא לעשות? אנחנו ממפים את התהליכים בעסק, מזהים משימות שגוזלות זמן – ובונים עבורכם פתרונות אוטומציה שמפחיתים טעויות, חוסכים משאבים, ומאפשרים לצוות להתמקד במה שחשוב באמת. כל פתרון נתפר בדיוק לצרכים שלכם – לשיפור אמיתי בפרודוקטיביות ובשורת הרווח .רוצים לראות את זה קורה אצלכם? דברו איתנו דרך עמוד צור קשר."
                 },
                 {
                     text: "שיווק דיגיטלי",
-                    description: "הגדלת הנוכחות הדיגיטלית עם אסטרטגיות שיווק ממוקדות. אנחנו בונים קמפיינים מקיפים הכוללים SEO, רשתות חברתיות, תוכן שיווקי וניתוח נתונים, כדי להגיע לקהל היעד ולהשיג את מטרות העסק. השילוב בין יצירתיות לניתוח נתונים מאפשר בניית מותג חזק, מעורבות לקוחות וצמיחה מתמשכת בעולם הדיגיטלי. כדי להתחיל לבנות את התהליכים המתאימים לעסק שלכם, פנו אלינו דרך עמוד צור קשר."
+                    description: "לא עוד ניחושים או קמפיינים סתמיים – אנחנו בונים אסטרטגיות שיווק חכמות שמביאות תוצאות. קידום אתרים (SEO), תוכן ממוקד, קמפיינים ברשתות החברתיות וניתוחי דאטה – הכל מתחבר לשיווק מדויק שמגדיל חשיפה, בונה מותג ויוצר קשר אמיתי עם הלקוחות. רוצים להפוך נוכחות דיגיטלית לצמיחה אמיתית? פנו אלינו דרך עמוד צור קשר."
                 },
                 {
                     text: "הדרכות תוכנה",
-                    description: "הדרכות מקצועיות להעצמת הצוות בטכנולוגיות המתקדמות ביותר. אנחנו מציעים סדנאות מותאמות אישית ולמידה מעשית במגוון כלים ושיטות עבודה. ההדרכות מסייעות להטמיע טכנולוגיות חדשות, להעלות את רמת הידע והביטחון של הצוות, ולהבטיח שהעסק שלכם יוכל למצות את מלוא הפוטנציאל הדיגיטלי."
+                    description: "הצוות שלכם יכול הרבה יותר – עם הכלים הנכונים והדרכה מדויקת. אנו מציעים סדנאות מותאמות לעסקים בנושאים כמו: שימוש חכם ומתקדם ביישומי אופיס,  עבודה מתקדמת עם  Google Workspace ושילוב כלים של בינה מלאכותית לשיפור התפוקה והתהליכים. בנוסף, ניתן להזמין הדרכות נוספות על תוכנות או טכנולוגיות נוספות – בהתאמה אישית מלאה לצרכי הארגון .רוצים לראות אילו הדרכות יתאימו לעסק שלכם? פנו אלינו דרך עמוד צור קשר לקבלת תוכנית מלאה ומחירון."
                 }
             ]
         },
